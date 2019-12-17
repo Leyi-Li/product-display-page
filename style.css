@@ -8,3 +8,55 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
+header {
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+nav {
+    flex: 1;
+
+}
+
+.cart {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.logo-container, .cart, .nav-links {
+    display: flex;
+}
+
+.logo {
+    font-weight: 100px;
+    margin: 10px;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-link::after {
+    background-color: lavender;
+}
+
+
+
