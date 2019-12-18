@@ -182,12 +182,10 @@ nav {
         font-weight: 50;
         font-size: 10px;
         margin: 10px;
-        background-color: thistle;
     }
 
     .nav-link {
         font-size: 13px;
-        background-color: thistle;
         margin-left: 10px;
     }
 
