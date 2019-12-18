@@ -143,6 +143,15 @@ nav {
     z-index: -1;
 }
 
+.laptop-select {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 10%;
+    right: 30%;
+}
+
 
 
 
